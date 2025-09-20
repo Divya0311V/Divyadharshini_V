@@ -1,7 +1,8 @@
 <details>
   <summary>Day 0 - Tools Installation</summary>
-   #    **TOOLS VERIFICATION**
   
+# **TOOLS VERIFICATION**
+---
 
 ## Yosys
 $ sudo apt-get update 
