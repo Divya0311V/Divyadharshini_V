@@ -1,6 +1,6 @@
 <details>
   <summary>Day 0 - Tools Installation</summary>
-  ##YOSYS
+  ## YOSYS
 
 $ sudo apt-get update 
 $ git clone https://github.com/YosysHQ/yosys.git 
