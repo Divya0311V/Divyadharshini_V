@@ -24,9 +24,16 @@ $ sudo make install
 sudo apt-get update 
 sudo apt-get install iverilog 
 
+![Image Alt](https://github.com/user-attachments/assets/11b9fd46-f292-4dab-b1b2-fdb0d20ed6c1)
+
+
 ## gtkwave 
 sudo apt-get update 
 sudo apt install gtkwave 
+
+
+![Image Alt](https://github.com/user-attachments/assets/4496096e-f3f4-4d55-85d2-e2d9b77c6551)
+
 
 ## ngspice 
 $ tar -zxvf ngspice-37.tar.gz 
@@ -36,6 +43,10 @@ $ cd release
 $ ../configure  --with-x --with-readline=yes --disable-debug 
 $ make 
 $ sudo make install 
+
+![Image Alt](https://github.com/user-attachments/assets/5a938b4e-5dcb-4438-a26f-bac60a79c201)
+
+
 
 ## magic 
 $   sudo apt-get install m4 
@@ -51,6 +62,10 @@ cd magic
 ./configure 
 make 
 make install 
+
+
+![Image Alt](https://github.com/user-attachments/assets/6b3d42c1-e5b6-4a83-b9c5-cc042ca5565f)
+
 
 
 ## OpenLANE
@@ -78,6 +93,8 @@ python3 --version
 python3 -m pip --version 
 make --version 
 python3 -m venv -h 
+
+![Image Alt](https://github.com/user-attachments/assets/53597462-28f6-4794-b4fa-b382b1e8ca8d)
 
 
 
