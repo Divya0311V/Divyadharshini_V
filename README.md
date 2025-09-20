@@ -14,7 +14,11 @@ libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ make config-gcc 
 $ make  
 $ sudo make install 
+
+
 ![Image Alt](https://github.com/user-attachments/assets/0e5ccac1-ba08-4ab5-a829-23cc17e7640d)
+
+
 
 ## Iverilog 
 sudo apt-get update 
