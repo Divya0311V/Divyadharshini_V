@@ -85,8 +85,9 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world 
 sudo groupadd docker 
 sudo usermod -aG docker $USER 
-sudo reboot  
-# After reboot 
+sudo reboot 
+
+-->After reboot 
 docker run hello-world 
 Check dependencies  
 git --version 
