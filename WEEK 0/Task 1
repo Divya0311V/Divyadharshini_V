@@ -1,0 +1,47 @@
+##TASK 1 - VIDEO SUMMARY
+# Digital VLSI SoC Design and Planning
+This repository documents the step-by-step design flow of a Digital System-on-Chip (SoC), starting from the initial specification and high-level modeling, and continuing through RTL development, SoC integration, physical design, and fabrication into final silicon. Each stage is described in detail in the documentation files, along with tools, languages, and example files that illustrate how the flow is carried out in practice.
+
+# Step-by-step Workflow:
+
+1. O1: Chip Modeling
+   - Define specifications using a C model.
+   - Create testbench in C language.
+
+2. O2: RTL Architecture
+   - Develop a soft copy of the hardware using RTL (Verilog).
+   - Begin the SoC design flow.
+
+3. Block-Level Design
+   - Design individual blocks like:
+     - Processor
+     - Peripherals / IPs
+
+4. Synthesis
+   - Convert RTL to gate-level netlist (Synth P1).
+   - Prepare macros (synthesized RTL).
+   - Integrate analog IPs (functional RTL).
+
+5. O3: SoC Integration
+   - Integrate processor, peripherals, macros, and analog IPs.
+   - Include GPIOs and other interfaces.
+
+6. Physical Design (RTL2GDS)
+   - Perform floorplanning, placement, clock tree synthesis (CTS), and routing.
+   - Generate GDSII file.
+   - Run DRC (Design Rule Check) and LVS (Layout vs Schematic) checks.
+   - Final output is ready for chip fabrication.
+# Final Output Stage:
+
+O4: Final SoC with Peripherals
+   - Integrate the complete SoC with its peripherals.
+
+Real-World Applications:
+   - iWatch
+   - Arduino boards
+   - TV panels
+   - AC applications
+
+Key Insight:
+   - O1 = O2 = O3 = O4
+   - This indicates consistent design intent and functionality across all stages.
