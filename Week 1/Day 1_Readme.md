@@ -156,7 +156,7 @@ show
 ```
 ---
 
-## 7. Summary
+## 7. Conclusion
 
 * Understood the purpose of simulator, design, and testbench.
 * Ran the first Verilog simulation using iverilog and GTKWave.
