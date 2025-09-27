@@ -1,14 +1,8 @@
-Got it ✅
-You want the **Day 5 notes** written in the same **clean, structured style** as my earlier refined version — but following exactly the **detailed content you pasted** (with labs, images, and explanations).
 
-Here’s the rewritten version, polished for clarity, flow, and readability, but keeping your structure intact:
-
----
 
 # Day 5: Optimization in Synthesis
 
-Welcome to **Day 5** of the RTL workshop!
-Today, we will focus on **optimization in Verilog synthesis**, covering `if-else` statements, avoiding **inferred latches**, and writing efficient, scalable RTL using **for loops** and **generate blocks**.
+Focus on **optimization in Verilog synthesis**, covering `if-else` statements, avoiding **inferred latches**, and writing efficient, scalable RTL using **for loops** and **generate blocks**.
 Hands-on **labs** are included to reinforce these concepts.
 
 ---
